@@ -837,7 +837,17 @@ export default function Home() {
           </p>
 
           <p className="mt-2">
-            表示される金額・個数等は実際の販売価格や在庫状況と異なる場合がありますので、購入前に公式ページにて最新情報をご確認ください。
+            表示される金額・個数等は実際の販売価格や在庫状況と異なる場合がありますので、購入前に{" "}
+            <a
+              href="https://soh.ntvs.co.jp/goods/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#5B9BD5] underline"
+            >
+              公式ページ
+            </a>{" "}
+            
+            にて最新情報をご確認ください。
           </p>
 
           <p className="mt-2">
